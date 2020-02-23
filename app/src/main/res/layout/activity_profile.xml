@@ -86,7 +86,7 @@
             android:fontFamily="@font/futura_pt_demibold"
             android:text="Fullname"
             android:textAlignment="textStart"
-            android:textSize="20sp"
+            android:textSize="19sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/separator1"
@@ -220,6 +220,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/separator4"
+            android:onClick="handleHomePage"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
